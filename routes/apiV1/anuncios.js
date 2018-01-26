@@ -55,9 +55,9 @@ router.get('/Listar', async(req, res, next) => {
         if (nombre) {
             filter.nombre = nombre;
         };
-        if (email) {
-            filter.email = email;
-        };
+        //if (email) {
+        //    filter.email = email;
+        //};
         if (tags) {
             filter.tags = tags;
         }
