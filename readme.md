@@ -7,7 +7,7 @@
 
 #####PATH'S Archivos estáticos:
 
-- [http://arfega.com/images/anuncios/GAFAS_FOTOCROMATICAS.png]()
+- [https://node.arfega.com/images/anuncios/GAFAS_FOTOCROMATICAS.png]()
 - Misma ruta con cualquiera de los siguientes:
 	* Aston_Martin.png
 	* OLD_PHONE1.jpg
@@ -20,12 +20,12 @@
 
 ####EndPoint's disponibles
 
-- Creación de usuarios (http://arfega.com/apiV1/Usuarios/register)
-- Autenticación de usuarios (http://arfega.com/apiV1/Usuarios/sign_in)
-- Inserción de anuncios (http://arfega.com/apiV1/Anuncios/Inserta?token=)
-- Borrado de anuncios (http://arfega.com/<id>?token=)
-- Listado de anuncios (multiples posibilidades de filtrado(*)) (http://arfega.com/apiv1/anuncios/listar?fields=-_id+nombre+venta+precio+foto+tags&precio=10-&token)
-- Listado de TAGS (http://arfega.com/apiV1/Anuncios/ListaTags?token=)
+- Creación de usuarios (https://node.arfega.com/apiV1/Usuarios/register)
+- Autenticación de usuarios (https://node.arfega.com/apiV1/Usuarios/sign_in)
+- Inserción de anuncios (https://node.arfega.com/apiV1/Anuncios/Inserta?token=)
+- Borrado de anuncios (https://node.arfega.com/<id>?token=)
+- Listado de anuncios (multiples posibilidades de filtrado(*)) (https://node.arfega.com/apiv1/anuncios/listar?fields=-_id+nombre+venta+precio+foto+tags&precio=10-&token)
+- Listado de TAGS (https://node.arfega.com/apiV1/Anuncios/ListaTags?token=)
 
 (*) El filtrado por el campo precio, se realiza contra un .json, donde disponemos de los posibles pares {clave:valor}, por ejemplo: "10-50": { "$gte": 10, "$lte": 50 },
 
