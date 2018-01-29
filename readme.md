@@ -1,8 +1,9 @@
 #PRACTICA DevOps
 
 - Repo: [https://github.com/ARFEGA/NODEPOP_EC2]()
-- Desplegada en arfega.com
-- IP:34.216.244.45
+- Desplegada en node.arfega.com
+- En el apartado "EndPoint's disponobles" en este mismo documento, encontrará las posible acciones que permite esta API, que se pueden probar con Postman.
+- IP:34.216.244.45 para ver WEB (plantilla de startbootstrap.com) 
 
 #####PATH'S Archivos estáticos:
 
@@ -17,7 +18,7 @@
 	* casco_OBRA.png
 	* guantes-riesgos-mecanicos.png
 
-##EndPoint's disponibles:
+####EndPoint's disponibles
 
 - Creación de usuarios (http://arfega.com/apiV1/Usuarios/register)
 - Autenticación de usuarios (http://arfega.com/apiV1/Usuarios/sign_in)
